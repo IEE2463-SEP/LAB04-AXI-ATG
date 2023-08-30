@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="axi_traffic_gen_0_tb_top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="axi_bram_ctrl_funcs" />
+            <top_module name="axi_traffic_gen_0_tb_top" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="10482500007fs"></ZoomEndTime>
+      <Cursor1Time time="1642862000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="242"></NameColumnWidth>
+      <ValueColumnWidth column_width="134"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="46" />
+   <wvobject fp_name="/axi_traffic_gen_0_tb_top/example_design/responder/U0/gint_inst/abcv4_0_int_inst/S_AXI_ACLK" type="logic">
+      <obj_property name="ElementShortName">S_AXI_ACLK</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_ACLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_traffic_gen_0_tb_top/example_design/responder/U0/gint_inst/abcv4_0_int_inst/S_AXI_ARESETN" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">S_AXI_ARESETN</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_ARESETN</obj_property>
+      <obj_property name="label">s_axi_areset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_traffic_gen_0_tb_top/example_design/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_traffic_gen_0_tb_top/example_design/status" type="array">
+      <obj_property name="ElementShortName">status[1:0]</obj_property>
+      <obj_property name="ObjectShortName">status[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider138">
+      <obj_property name="label">Driver-Write Address Chnnel</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_traffic_gen_0_tb_top/example_design/m_axi_lite_ch1_awaddr" type="array">
+      <obj_property name="ElementShortName">m_axi_lite_ch1_awaddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_lite_ch1_awaddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_traffic_gen_0_tb_top/example_design/m_axi_lite_ch1_awready" type="logic">
+      <obj_property name="ElementShortName">m_axi_lite_ch1_awready</obj_property>
+      <obj_property name="ObjectShortName">m_axi_lite_ch1_awready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_traffic_gen_0_tb_top/example_design/m_axi_lite_ch1_awvalid" type="logic">
+      <obj_property name="ElementShortName">m_axi_lite_ch1_awvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axi_lite_ch1_awvalid</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider83">
+      <obj_property name="label">Driver - Write Data Channel</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_traffic_gen_0_tb_top/example_design/m_axi_lite_ch1_wdata" type="array">
+      <obj_property name="ElementShortName">m_axi_lite_ch1_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_lite_ch1_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_traffic_gen_0_tb_top/example_design/m_axi_lite_ch1_wready" type="logic">
+      <obj_property name="ElementShortName">m_axi_lite_ch1_wready</obj_property>
+      <obj_property name="ObjectShortName">m_axi_lite_ch1_wready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_traffic_gen_0_tb_top/example_design/m_axi_lite_ch1_wvalid" type="logic">
+      <obj_property name="ElementShortName">m_axi_lite_ch1_wvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axi_lite_ch1_wvalid</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider22">
+      <obj_property name="label">Driver - Write Response Channel</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_traffic_gen_0_tb_top/example_design/m_axi_lite_ch1_bresp" type="array">
+      <obj_property name="ElementShortName">m_axi_lite_ch1_bresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_lite_ch1_bresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_traffic_gen_0_tb_top/example_design/m_axi_lite_ch1_bready" type="logic">
+      <obj_property name="ElementShortName">m_axi_lite_ch1_bready</obj_property>
+      <obj_property name="ObjectShortName">m_axi_lite_ch1_bready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_traffic_gen_0_tb_top/example_design/m_axi_lite_ch1_bvalid" type="logic">
+      <obj_property name="ElementShortName">m_axi_lite_ch1_bvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axi_lite_ch1_bvalid</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider84">
+      <obj_property name="label">Driver - Read Address Channel</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_traffic_gen_0_tb_top/example_design/m_axi_lite_ch1_araddr" type="array">
+      <obj_property name="ElementShortName">m_axi_lite_ch1_araddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_lite_ch1_araddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_traffic_gen_0_tb_top/example_design/m_axi_lite_ch1_arready" type="logic">
+      <obj_property name="ElementShortName">m_axi_lite_ch1_arready</obj_property>
+      <obj_property name="ObjectShortName">m_axi_lite_ch1_arready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_traffic_gen_0_tb_top/example_design/m_axi_lite_ch1_arvalid" type="logic">
+      <obj_property name="ElementShortName">m_axi_lite_ch1_arvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axi_lite_ch1_arvalid</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider90">
+      <obj_property name="label">Driver - Read Data Channel</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_traffic_gen_0_tb_top/example_design/m_axi_lite_ch1_rdata" type="array">
+      <obj_property name="ElementShortName">m_axi_lite_ch1_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_lite_ch1_rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_traffic_gen_0_tb_top/example_design/m_axi_lite_ch1_rready" type="logic">
+      <obj_property name="ElementShortName">m_axi_lite_ch1_rready</obj_property>
+      <obj_property name="ObjectShortName">m_axi_lite_ch1_rready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_traffic_gen_0_tb_top/example_design/m_axi_lite_ch1_rvalid" type="logic">
+      <obj_property name="ElementShortName">m_axi_lite_ch1_rvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axi_lite_ch1_rvalid</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider85">
+      <obj_property name="label">DUT - Write Address Channel</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_traffic_gen_0_tb_top/example_design/m_axi_awaddr" type="array">
+      <obj_property name="ElementShortName">m_axi_awaddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_awaddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_traffic_gen_0_tb_top/example_design/m_axi_awready" type="logic">
+      <obj_property name="ElementShortName">m_axi_awready</obj_property>
+      <obj_property name="ObjectShortName">m_axi_awready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_traffic_gen_0_tb_top/example_design/m_axi_awvalid" type="logic">
+      <obj_property name="ElementShortName">m_axi_awvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axi_awvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_traffic_gen_0_tb_top/example_design/m_axi_awlen" type="array">
+      <obj_property name="ElementShortName">m_axi_awlen[7:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_awlen[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider86">
+      <obj_property name="label">DUT - Write Data Channel</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_traffic_gen_0_tb_top/example_design/m_axi_wdata" type="array">
+      <obj_property name="ElementShortName">m_axi_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_traffic_gen_0_tb_top/example_design/m_axi_wready" type="logic">
+      <obj_property name="ElementShortName">m_axi_wready</obj_property>
+      <obj_property name="ObjectShortName">m_axi_wready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_traffic_gen_0_tb_top/example_design/m_axi_wvalid" type="logic">
+      <obj_property name="ElementShortName">m_axi_wvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axi_wvalid</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider87">
+      <obj_property name="label">DUT - Write Response Channel</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_traffic_gen_0_tb_top/example_design/m_axi_bresp" type="array">
+      <obj_property name="ElementShortName">m_axi_bresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_bresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_traffic_gen_0_tb_top/example_design/m_axi_bready" type="logic">
+      <obj_property name="ElementShortName">m_axi_bready</obj_property>
+      <obj_property name="ObjectShortName">m_axi_bready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_traffic_gen_0_tb_top/example_design/m_axi_bvalid" type="logic">
+      <obj_property name="ElementShortName">m_axi_bvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axi_bvalid</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider88">
+      <obj_property name="label">DUT - Read Address Channel</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_traffic_gen_0_tb_top/example_design/m_axi_araddr" type="array">
+      <obj_property name="ElementShortName">m_axi_araddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_araddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_traffic_gen_0_tb_top/example_design/m_axi_arready" type="logic">
+      <obj_property name="ElementShortName">m_axi_arready</obj_property>
+      <obj_property name="ObjectShortName">m_axi_arready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_traffic_gen_0_tb_top/example_design/m_axi_arvalid" type="logic">
+      <obj_property name="ElementShortName">m_axi_arvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axi_arvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_traffic_gen_0_tb_top/example_design/m_axi_arlen" type="array">
+      <obj_property name="ElementShortName">m_axi_arlen[7:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_arlen[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider89">
+      <obj_property name="label">DUT - Read Data Channel</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_traffic_gen_0_tb_top/example_design/m_axi_rdata" type="array">
+      <obj_property name="ElementShortName">m_axi_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_traffic_gen_0_tb_top/example_design/m_axi_rready" type="logic">
+      <obj_property name="ElementShortName">m_axi_rready</obj_property>
+      <obj_property name="ObjectShortName">m_axi_rready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_traffic_gen_0_tb_top/example_design/m_axi_rvalid" type="logic">
+      <obj_property name="ElementShortName">m_axi_rvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axi_rvalid</obj_property>
+   </wvobject>
+</wave_config>
