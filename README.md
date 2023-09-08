@@ -15,10 +15,10 @@ En este laboratorio aprenderemos a utilizar el IP Core de XIlinx AXI Traffic Gen
 3. Previo al Quiz04, realizado en los primeros 10-15min de cada laboratorio, debes estudiar personalizadamente:
 
 * Ver y ejecutar el video del [laboratorio 04](https://youtu.be/Hsc6xoukKoo).
-* Contenidos de la Ayudantia 03.
-* [Lectura04]() IEE2463
+* Contenidos de la [Ayudantia 03](https://youtu.be/xY11cwGPH3E)
+* [Lectura04](https://github.com/IEE2463-SEP/Lecturas) IEE2463
 * Apuntes Protocolo [AXI](https://github.com/IEE2463-SEP/Lecturas/blob/main/03.-AXI%20Summary-Notes.pdf)
 * [Documento ATG v3.0 Product Guide](https://github.com/IEE2463-SEP/LAB04-AXI-ATG/blob/main/pg125-axi-traffic-gen.pdf): Este documento contiene la documentación para comprender como funciona el IPCORE ATG. **La lectura de los primeros dos capitulos es obligatoria para comprender el laboratorio y será evaluada en el QUIZ04.**
 * [AMBA AXI Protocol Specification](https://github.com/IEE2463-SEP/LAB04-AXI-ATG/blob/main/IHI0022E_amba_axi_and_ace_protocol_spec.pdf): Este documento contiene los detalles del funcionamiento del protocolo de comunicación AXI.  Utilicelo solo como un documento de consulta, para encontrar detalles de la comunicación AXI. Se recomienda leer el Chapter A1 y A2 y revisar el chapter A3. **Solo las secciones A1.3, A3.1 y A3.2 serán preguntadas en el QUIZ04.**
 
-4.- [Actividad Práctica]() desarrollada en el del Laboratorio 
+4.- [Actividad Práctica](https://github.com/IEE2463-SEP/LAB04-AXI-ATG/blob/main/LAB04_AXI_ATG.pptx) desarrollada en el del Laboratorio 
